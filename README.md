@@ -5,7 +5,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green.svg?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/Maven-3.x-red.svg?logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 [![Spring AI](https://img.shields.io/badge/Spring_AI-1.x-blue.svg?logo=spring&logoColor=white)](https://spring.io/projects/spring-ai)
-[![Mistral AI](https://img.shields.io/badge/Mistral_AI-x.x-orange.svg?logo=spring&logoColor=white)](https://mistral.ai/)
+[![Mistral AI](https://img.shields.io/badge/Mistral_AI-orange.svg?logo=spring&logoColor=white)](https://mistral.ai/)
 
 ## Project Overview ✨
 
