@@ -1,18 +1,21 @@
-# apex: Daily News Brief Service
+# apex: Daily News Brief Service 🚀
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Java 21](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Mistral AI](https://img.shields.io/badge/Mistral%20AI-F06C2B?style=for-the-badge&logo=mistralai&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java](https://img.shields.io/badge/Java-21-blue.svg?logo=openjdk&logoColor=white)](https://openjdk.java.net/projects/jdk/21/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green.svg?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Maven](https://img.shields.io/badge/Maven-3.x-red.svg?logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+[![Spring AI](https://img.shields.io/badge/Spring_AI-1.x-blue.svg?logo=spring&logoColor=white)](https://spring.io/projects/spring-ai)
+[![Mistral AI](https://img.shields.io/badge/Mistral_AI-x.x-orange.svg?logo=spring&logoColor=white)](https://mistral.ai/)
 
-## Overview
+## Project Overview ✨
 
-`apex` is a Spring Boot application designed to provide a daily news brief service. It leverages the News API to fetch
-top headlines and then uses Spring AI with Mistral AI to summarize these articles into a concise and informative news
-brief. The service offers both JSON and HTML renditions of the summary.
+`apex` is a robust and intuitive daily news brief service built with Spring Boot. It intelligently fetches top headlines
+from the News API and leverages Spring AI with Mistral AI to summarize these articles into a concise and informative
+news brief. The service is designed with a focus on clean architecture, security, and performance, offering both JSON
+and HTML renditions of the summarized news. `apex` aims to deliver a seamless experience for staying updated with daily
+global events.
 
-## Features
+## Key Features 🚀
 
 * **Daily News Summarization**: Fetches top global news stories and summarizes them using AI.
 * **News API Integration**: Seamlessly integrates with the News API for fetching real-time headlines.
@@ -23,7 +26,7 @@ brief. The service offers both JSON and HTML renditions of the summary.
 * **Robust Error Handling**: Includes a global exception handler for consistent error responses.
 * **Unit Tests**: Comprehensive test suite ensuring reliability and correctness.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 * **Spring Boot 3**: Framework for building robust, production-ready Spring applications.
 * **Java 21**: The programming language used for the application.
@@ -35,23 +38,30 @@ brief. The service offers both JSON and HTML renditions of the summary.
 * **Spring Cache**: For caching API responses.
 * **JUnit 5 & Mockito**: For unit testing.
 
-## Getting Started
+## Getting Started 🏁
 
-### Prerequisites
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing
+purposes.
 
-* Java Development Kit (JDK) 21 or higher
-* Apache Maven 3.6.x or higher
-* A News API key (obtain one from [News API](https://newsapi.org/))
-* Access to Mistral AI (e.g., via an API key or local setup)
+### Prerequisites 📋
 
-### Cloning the Repository
+Before you begin, ensure you have the following installed:
 
-```bash
-git clone https://github.com/nathsagar96/apex.git
-cd apex
-```
+* **Java Development Kit (JDK) 21** or higher
+* **Apache Maven 3.6.x** or higher
+* **Git**
+* A **News API key** (obtain one from [News API](https://newsapi.org/))
+* Access to **Mistral AI** (e.g., via an API key or local setup)
 
-### Configuration
+### Cloning the Repository ⚙️
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nathsagar96/apex.git
+   cd apex
+   ```
+
+### Configuration 🛠️
 
 Before running the application, you need to configure your News API key and Mistral AI settings in
 `src/main/resources/application.yaml`.
@@ -74,7 +84,7 @@ spring:
         api-key: YOUR_MISTRAL_AI_API_KEY # Replace with your actual Mistral AI API key
 ```
 
-### Running the Application
+### Running the Application ▶️
 
 You can run the application using Maven:
 
@@ -84,9 +94,9 @@ mvn spring-boot:run
 
 The application will start on `http://localhost:8080` by default.
 
-## API Endpoints
+## API Endpoints 📖
 
-The service exposes the following RESTful endpoints:
+The service exposes the following RESTful endpoints. For interactive documentation, please refer to the Swagger UI.
 
 ### 1. Get News Brief (JSON)
 
@@ -131,7 +141,7 @@ Retrieves a concise news summary rendered as a raw HTML snippet.
   </html>
   ```
 
-## Project Structure
+## Project Structure 📂
 
 The project follows a feature-driven package organization:
 
@@ -147,7 +157,7 @@ com.apex/
 ├── services/                 # Business logic services (e.g., NewsBriefService)
 ```
 
-## Testing
+## Testing 🧪
 
 The project includes comprehensive tests:
 
@@ -160,10 +170,21 @@ To run all tests:
 mvn test
 ```
 
-## Contributing
+## Contributing 🤝
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-## License
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! ⭐ Thanks again!
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License 📄
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
